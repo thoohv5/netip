@@ -5,13 +5,14 @@
 package netip
 
 import (
-	"golang.zx2c4.com/go118/netip/internal/testenv"
 	"os/exec"
 	"path/filepath"
 	"regexp"
 	"runtime"
 	"strings"
 	"testing"
+
+	"github.com/thoohv5/netip/internal/testenv"
 )
 
 func TestInlining(t *testing.T) {
@@ -25,7 +26,7 @@ func TestInlining(t *testing.T) {
 		filepath.Join(runtime.GOROOT(), "bin", "go"+exe),
 		"build",
 		"--gcflags=-m",
-		"golang.zx2c4.com/go118/netip").CombinedOutput()
+		"github.com/thoohv5/netip").CombinedOutput()
 	if err != nil {
 		t.Fatalf("go build: %v, %s", err, out)
 	}

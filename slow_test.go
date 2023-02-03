@@ -6,7 +6,6 @@ package netip_test
 
 import (
 	"fmt"
-	. "golang.zx2c4.com/go118/netip"
 	"strconv"
 	"strings"
 )

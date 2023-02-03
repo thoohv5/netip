@@ -4,7 +4,7 @@
 
 package netip
 
-import "golang.zx2c4.com/go118/netip/internal/intern"
+import "github.com/thoohv5/netip/internal/intern"
 
 var (
 	Z0    = z0

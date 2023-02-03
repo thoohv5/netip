@@ -13,7 +13,6 @@ package testenv
 import (
 	"errors"
 	"flag"
-	"golang.zx2c4.com/go118/netip/internal/cfg"
 	"os"
 	"os/exec"
 	"path/filepath"
@@ -22,6 +21,8 @@ import (
 	"strings"
 	"sync"
 	"testing"
+
+	"github.com/thoohv5/netip/internal/cfg"
 )
 
 // Builder reports the name of the builder running this test

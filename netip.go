@@ -17,9 +17,9 @@ import (
 	"math"
 	"strconv"
 
-	"golang.zx2c4.com/go118/netip/internal/bytealg"
-	"golang.zx2c4.com/go118/netip/internal/intern"
-	"golang.zx2c4.com/go118/netip/internal/itoa"
+	"github.com/thoohv5/netip/internal/bytealg"
+	"github.com/thoohv5/netip/internal/intern"
+	"github.com/thoohv5/netip/internal/itoa"
 )
 
 // Sizes: (64-bit)

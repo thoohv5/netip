@@ -9,13 +9,13 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	. "golang.zx2c4.com/go118/netip"
-	"golang.zx2c4.com/go118/netip/internal/intern"
 	"net"
 	"reflect"
 	"sort"
 	"strings"
 	"testing"
+
+	"github.com/thoohv5/netip/internal/intern"
 )
 
 var long = flag.Bool("long", false, "run long tests")
